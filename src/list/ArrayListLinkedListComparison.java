@@ -12,7 +12,8 @@ public class ArrayListLinkedListComparison {
 		long now = System.currentTimeMillis();
 
 		for (int i = 0; i <= 500000; ++i) {
-			arrayList.add(0, i); // Adding to the first index of arrayList
+			//arrayList.add(0, i); // Adding to the first index of arrayList which is O(N)
+			arrayList.add(i);     // Adding to the last index of arrayList which is O(1)
 		}
 
 		System.out.println("Time Taken by ArrayList = " + (System.currentTimeMillis() - now));

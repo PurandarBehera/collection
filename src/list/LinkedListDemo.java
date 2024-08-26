@@ -20,7 +20,7 @@ public class LinkedListDemo {
 		linkedList.addLast(30);
 		linkedList.addLast(40);
 
-		linkedList.addFirst(101); // add will append to first of the Linked list
+		linkedList.addFirst(101); // addFirst will append to first of the Linked list
 		linkedList.addFirst(202);
 		linkedList.addFirst(303);
 		linkedList.addFirst(404);
