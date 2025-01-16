@@ -1,5 +1,6 @@
 package list;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -19,6 +20,7 @@ public class LinkedListDemo {
 		linkedList.addLast(20);
 		linkedList.addLast(30);
 		linkedList.addLast(40);
+		
 
 		linkedList.addFirst(101); // addFirst will append to first of the Linked list
 		linkedList.addFirst(202);
